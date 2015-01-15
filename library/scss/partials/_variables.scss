@@ -1,0 +1,73 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Variables
+
+Here is where we declare all our variables like colors, fonts,
+base values, and defaults. We want to make sure this file ONLY
+contains variables that way our files don't get all messy.
+No one likes a mess.
+
+******************************************************************/
+
+/*********************
+COLORS
+Need help w/ choosing your colors? Try this site out:
+http://0to255.com/
+*********************/
+
+$alert-yellow:      #ebe16f;
+$alert-red:         #fbe3e4;
+$alert-green:       #e6efc2;
+$alert-blue:        #d5edf8;
+
+$black:             #323944;
+$white:             #fff;
+
+$light-gray:        #f8f9fa;
+$gray:              #eaedf2;
+$text-color:        #5c6b80;
+$meta-gray:         #9fa6b4;
+
+$tan:               #eceee5;
+
+$green:             #7dd667;
+
+$bones-pink:        #f01d4f;
+$blue:              #2980b9;
+$aglink:			#BF344D;
+
+$purple:			#2D1D40;
+$eggplant:			#401739;
+$plum:				#73193B;
+$victoria:			#8F4762;
+$lilac:				#C7A3B1;
+$wine:				#56132C;
+$porto:				#3A0D1E;
+$moss:				#415E42;
+$camo:				#677E68;
+$laurel:			#B3BFB3;
+$sage:				#667260;
+$artichoke:			#89BA7A;
+$dollar:			#A1C895;
+$asparagus:			#678B5C;
+$seaweed:			#455D3D;
+$pistachio:			#CBE4C0;
+$navajo:			#FDFADE;
+$mist:				#F2F1EF;
+$pumice:			#B5B5B3;
+$asphalt:			#797978;
+
+$link-color:        $plum;
+$link-hover:        lighten($lilac, 4%);
+
+$border-color:      #ccc;
+$disabled-gray:     #cfcfcf;
+
+
+/*
+Here's a great tutorial on how to
+use color variables properly:
+http://sachagreif.com/sass-color-variables/
+*/
