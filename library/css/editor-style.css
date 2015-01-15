@@ -422,10 +422,10 @@ body#tinymce.wp-editor {
     box-sizing: content-box;
     height: 0; }
   body#tinymce.wp-editor p {
-    -webkit-hyphens: auto;
-    -epub-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto; }
+    -webkit-hyphens: none;
+    -epub-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none; }
   body#tinymce.wp-editor pre {
     margin: 0; }
   body#tinymce.wp-editor code,

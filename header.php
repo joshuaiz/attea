@@ -46,9 +46,9 @@
 
 
 			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-				<div class="header-bg-img" style="background-image:url('http://attea.dev:8888/wp-content/uploads/2015/01/header-bg-green.png');"></div>
+				<div class="header-bg-img" style="background-image:url('http://atteagroup.com/wp-content/uploads/2015/01/header-bg-green.png');"></div>
 				<div class="header-bg-img-mobile">
-					<img src="http://attea.dev:8888/wp-content/uploads/2015/01/header-bg-green-mobile.png">
+					<img src="http://atteagroup.com/wp-content/uploads/2015/01/header-bg-green-mobile.png">
 				</div>
 			<div id="inner-header-wrap">
 			
@@ -57,7 +57,7 @@
 				
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<div id="logo" class="h1" itemscope itemtype="http://schema.org/Organization"><a rel="nofollow"><img src="http://attea.dev:8888/wp-content/uploads/2015/01/logo_green3.png"></a></div>
+					<div id="logo" class="h1" itemscope itemtype="http://schema.org/Organization"><a rel="nofollow"><img src="http://atteagroup.com/wp-content/uploads/2015/01/logo_green3.png"></a></div>
 
 					<?php // if you'd like to use the site description you can un-comment it below ?>
 					<?php // bloginfo('description'); ?>

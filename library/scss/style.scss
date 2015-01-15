@@ -81,6 +81,13 @@ tweeners.
 
 } // end of media query
 
+@media only screen and (min-width: 519px) and (max-width: 767px) {
+
+	// styles in 519up.scss
+	@import "breakpoints/519up";
+
+} // end of media query
+
 @media only screen and (max-width: 767px) {
 
 	// styles in 768up.scss
@@ -151,4 +158,16 @@ be set to display none.
 	// styles in print.scss
 	@import "partials/print";
 
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+
+	.home .header {
+
+		height: 500px;
+
+	}
 }

@@ -291,9 +291,6 @@ GENERAL STYLES
 /*********************
 LAYOUT & GRID STYLES
 *********************/
-.wrap {
-  width: 760px; }
-
 /*********************
 HEADER STYLES
 *********************/
@@ -446,7 +443,7 @@ style a page via class
 ********************/
 /* for sites that are read right to left (i.e. hebrew) */
 .home .header {
-  height: 600px; }
+  height: 500px; }
 .home #content {
   position: relative;
   z-index: 10; }
@@ -479,11 +476,6 @@ style a page via class
   margin-left: 172px; }
 .home .clients-outer .article-header {
   float: left; }
-.home .clients-outer .clients .client.expanded figure {
-  float: left;
-  margin-right: 1.5em; }
-.home .clients-outer .client-more {
-  margin-left: 415px; }
 .home .additional-clients-outer .article-header {
   float: left; }
 .home .additional-clients-outer ul {
@@ -583,8 +575,17 @@ be seen on the Desktop.
 .wrap {
   width: 1040px; }
 
+.home .header {
+  height: 550px; }
+
 .nav li a {
   font-size: .875em; }
+
+.clients-outer .clients .client.expanded figure {
+  float: left;
+  margin-right: 1.5em; }
+.clients-outer .client-more {
+  margin-left: 415px; }
 
 /*
 you can call the larger styles if you want, but there's really no need

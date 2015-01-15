@@ -15,6 +15,13 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 
+* {
+-moz-hyphens:none !important;
+-ms-hyphens:none !important;
+-webkit-hyphens: none !important;
+hyphens:none !important;
+}
+
 body {
 	font-family: $aller;
 	font-size: 100%;
@@ -116,6 +123,7 @@ style a page via class
 		background: #fff;
 		color: #667260;
 		padding: 2.2em 0;
+		.hentry { padding: 0; }
 		h2 { margin-top: 0; }
 		.approach {
 		
@@ -138,7 +146,7 @@ style a page via class
 		li.client {
 			padding: 0 0 60px;
 			&:last-of-type {
-			margin: 0 auto;
+			// margin: 0 auto;
 			padding-bottom: 2.2em;
 			}
 
@@ -1132,7 +1140,7 @@ FOOTER STYLES
 	background: #fff;
 	text-align: left;
 	font-size: 14px;
-	
+	height: 245px;
 	strong { color: $plum; }
 	p { margin: 0; }
 }
@@ -1358,7 +1366,7 @@ FOOTER STYLES
 	list-style: none;
 	// text-align: center;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
 
 }
@@ -1438,7 +1446,7 @@ FOOTER STYLES
 }
 
 .cs-style-3 figcaption {
-	height: 300px;
+	height: 100%;
 	width: 100%;
 	top: auto;
 	bottom: 0;

@@ -38,12 +38,18 @@ owl.owlCarousel({
             items:2,
 
         },
-        768:{
+        1030:{
             items:3,
         },
         
     }		
 });
+});
+
+jQuery(document).ready(function($) {
+//all heading 1s
+    $('h1, h2, h3, p').widowFix();
+
 });
 </script>
 

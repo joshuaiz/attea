@@ -28,7 +28,7 @@ LAYOUT & GRID STYLES
 *********************/
 
 .wrap {
-	width: 760px;
+	// width: 760px;
 }
 
 /*********************
@@ -248,7 +248,7 @@ style a page via class
 
 .rtl {}                           /* for sites that are read right to left (i.e. hebrew) */
 .home {
-	.header { height: 600px; }
+	.header { height: 500px; }
 	#content {
 		position: relative;
 		z-index: 10;
@@ -316,14 +316,14 @@ style a page via class
 			
 			figure {
 
-					float: left;
-					margin-right: 1.5em;
+					// float: left;
+					// margin-right: 1.5em;
 				
 			}
 		}
 		}
 		.client-more {
-			margin-left: 415px;
+			// margin-left: 415px;
 		}
 	}
 	.additional-clients-outer {

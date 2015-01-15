@@ -21,8 +21,9 @@ come into play. Have fun!
 }
 
 .header-bg-img-mobile {
+	background: $moss;
 	img {
-		max-width: 100%;
+		width: 100%;
 		height: auto;
 	}
 }
@@ -33,8 +34,10 @@ come into play. Have fun!
 		color: #fff;
 		text-align: center;
 		position: relative;
-		left: 15px;
-		right: 15px;
+		// left: 15px;
+		// right: 15px;
+		width: 100%;
+		// margin: 0;
 		font-family: "allerregular", Verdana, Helvetica, Arial, sans-serif;
 h3 { 
 			font-weight: 600 !important; 
@@ -61,7 +64,7 @@ h3 {
 
 #sdrn_bar .sdrn_ic span {
 		width: 30px !important;
-		background: $sage ;
+		background: $sage;
 		
 	}
 
